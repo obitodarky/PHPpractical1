@@ -10,6 +10,7 @@
 		$city=$_POST['city'];
 		$pin=$_POST['pincode'];
 		$val=true;
+		//if any field is left empty, do the following
 		if(empty($name)){
 			$val=false;
 			echo "ERROR :Enter name <br>";
